@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WEATHER APP</title>
+    <script src="https://code.jquery.com/jquery-3.6.2.min.js" integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA=" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  </head>
+  <body id="body">
+    
+<div class="weather-app" id="top-padding">
+  <div class="container">
+    <h3 class="brand">THE WEATHER</h3>
+    <div>
+      <h1 class="temp">16&#176;</h1>
+      <div class="city-time">
+        <h1 class="name">Delhi</h1>
+        <small>
+          <span class="time">06:30</span>
+          -
+          <span class="date">
+            Thursday Dec 22
+          </span>
+        </small>
+      </div>
+      <div class="weather">
+        <img src="./icons/day/113.png"
+        class="icon"
+        alt="icon"
+        width="50"
+        height="50"
+      />
+      <span class="condition">Cloudy</span>
+    </div>
+  </div>
+</div>
+<div class="panel">
+  <form id="locationInput">
+    <input
+    type="text"
+    class="search"
+    placeholder="search Location..."
+    / >
+    <button type="submit" class="submit">
+      <i class="fa-solid fa-magnifying-glass"></i>
+    </button>
+  </form>
+
+  <ul class="cities">
+    <li class="city">Mumbai</li>
+    <li class="city">Chennai</li>
+    <li class="city">Kolkata</li>
+    <li class="city">Lucknow</li>
+  </ul>
+  <ul class="details">
+    <h4>Weather Details</h4>
+    <li>
+      <span>Cloudy</span>
+      <span class="cloud">89%</span>
+    </li>
+    <li>
+      <span>Humidity</span>
+      <span class="humidity">64%</span>
+    </li>
+    <li>
+      <span>Wind</span>
+      <span class="wind">8 km/h</span>
+    </li>
+  </ul>
+</div>
+</div>
+
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
