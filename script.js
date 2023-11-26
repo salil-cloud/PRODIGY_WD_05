@@ -16,7 +16,7 @@ const search = document.querySelector('.search');
 const btn = document.querySelector('.submit');
 const cities = document.querySelectorAll('.city');
 
-let cityInput = "Delhi";
+let cityInput = "New Delhi";
 
 cities.forEach((city) => {
     city.addEventListener('click', (e) => {
@@ -115,11 +115,11 @@ function fetchWeatherData() {
                 code == 1282 
             ) {
                 app.style.backgroundImage = `
-             url(./image/${timeOfDay}/cloudy.jpg`;
-             btn.style.background = "#fa6d1b";
-            if(timeOfDay == "night") {
-                btn.style.background = "#181e27";
-            }
+                url(./images/${timeOfDay}/cloudy.jpg`;
+                btn.style.background = "#fa6d1b";
+                if(timeOfDay == "night") {
+                    btn.style.background = "#181e27";
+                }
         } else if (
             code == 1063 ||
             code == 1069 ||
