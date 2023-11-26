@@ -27,7 +27,7 @@ const key = 'YOUR_WEATHERAPI_KEY';
 
 ## Screenshots
 
-![Screenshot](./screenshots/img2.png?raw=true "")
+![Screenshot](./screenshots/img2.png?raw=true "Screenshot")
 
 ## Technologies Used
 
