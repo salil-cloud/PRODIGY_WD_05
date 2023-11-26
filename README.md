@@ -1,4 +1,3 @@
-Absolutely, let's create a more concise README focusing on the project details:
 
 ```markdown
 # Weather Application
@@ -28,7 +27,7 @@ const key = 'YOUR_WEATHERAPI_KEY';
 
 ## Screenshots
 
-![Screenshot ](screenshots/img2.png)
+![Screenshot ](./screenshots/img2.png)
 
 ## Technologies Used
 
