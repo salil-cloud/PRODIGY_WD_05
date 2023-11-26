@@ -110,7 +110,6 @@ function fetchWeatherData() {
                 code == 1087 ||
                 code == 1135 ||
                 code == 1273 ||
-                code == 1276 ||
                 code == 1279 ||
                 code == 1282 
             ) {
@@ -138,6 +137,7 @@ function fetchWeatherData() {
             code == 1243 ||
             code == 1246 ||
             code == 1249 ||
+            code == 1276 ||
             code == 1252 
     ) {
         app.style.backgroundImage = `
